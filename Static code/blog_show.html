@@ -9,14 +9,14 @@
 			
 			<div class="w-100">
  
-				<span class="badge text-bg-light mb-3 text-capitalize">Lorem Ipsum</span>
-				<h2 class="mb-3 h3">Lorem Ipsum</h2>
+				<span class="badge text-bg-light mb-3 text-capitalize">{{ entry.meta.category }}</span>
+				<h2 class="mb-3 h3">{{ entry.fields.title }}</h2>
 				<div>
-						<h4 class="h6">By: Lorem Ipsum</h4>
+						<h4 class="h6">By: {{ entry.fields.author }} </h4>
 						<p class="text-gray-500">16 September 2024</p>
 					</div>
 				
-				<h5 class="mb-4 fw-normal text-gray-500"> Lorem IpsumLorem IpsumLorem Ipsum </h5>
+				<h5 class="mb-4 fw-normal text-gray-500">{{ entry.fields.excerpt }}</h5>
 				
 				<p>Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
 			</div>
